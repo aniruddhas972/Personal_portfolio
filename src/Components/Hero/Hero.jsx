@@ -12,7 +12,7 @@ const Hero = () => {
             <p>Welcome to my portfolio! I'm Aniruddha Ramesh Sutar, a dedicated software developer skilled in Java, React, and MySQL. Explore my projects to see my journey and expertise in creating efficient web applications.</p>
             <div className='hero_action'>
                 <div className='hero_connect'><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
-                <div className='hero_resume'>My Resume</div>
+                <div className='hero_resume'><a className='anchor-link' href="Aniruddha_Sutar_FullStackResume.pdf" download="Aniruddha Sutar Resume.pdf">My Resume</a></div>
             </div>
         </div>
     )
